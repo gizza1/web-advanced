@@ -1,0 +1,16 @@
+div#static{
+    position: static;
+    border: 2px solid rosybrown;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+}
+div#relative{
+ position: relative;
+    border: 2px solid rosybrown;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    left: 200px;
+    top: 20px;
+}
