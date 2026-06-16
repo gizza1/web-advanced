@@ -1,0 +1,10 @@
+.photos{
+   display: flex;
+   background-color: whitesmoke;
+
+}
+.photos div{
+    margin: auto;
+    flex-direction: row;
+}
+
