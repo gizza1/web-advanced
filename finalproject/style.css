@@ -7,14 +7,14 @@
 body{
     font-family:'Segoe UI',sans-serif;
     background:#f5f7fa;
-    color:#333;
+    color:#000000;
     line-height:1.6;
 }
 
 /* HEADER */
 
 header{
-    background:#0f172a;
+    background:#004126;
     padding:20px 50px;
 
     display:flex;
@@ -297,7 +297,7 @@ button:hover{
 
 
 footer{
-    background:#0f172a;
+    background:#004126;
     color:white;
 
     text-align:center;
@@ -316,19 +316,7 @@ footer p{
 
 
 
-@keyframes fadeUp{
 
-    from{
-        opacity:0;
-        transform:translateY(40px);
-    }
-
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-
-}
 
 .hero,
 .info-section,
@@ -520,7 +508,7 @@ footer p{
 
 .social-links a{
 
-    text-decoration:none;
+    text-decoration:solid;
 
     color:white;
 
@@ -575,4 +563,99 @@ footer p{
     font-size:18px;
 
     line-height:1.8;
+}
+/* ABOUT PAGE */
+
+.about-card{
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    padding:35px;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+    border-left:6px solid #22c55e;
+
+    transition:0.3s;
+}
+
+.about-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.about-card h2{
+
+    color:#16a34a;
+
+    margin-bottom:15px;
+
+    font-size:30px;
+}
+
+.about-card p{
+
+    font-size:18px;
+
+    line-height:1.8;
+}
+
+.about-card ul{
+
+    margin-top:15px;
+    padding-left:20px;
+}
+
+.about-card li{
+
+    margin-bottom:10px;
+
+    font-size:18px;
+}
+.about-hero{
+
+    max-height:800px;
+
+    background-image:
+    linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url("images/abcdf.jpeg");
+    height:600px;
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    padding:100px;
+    
+}
+
+.about-hero h2{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+}
+
+.about-hero p{
+
+    font-size:20px;
+
+    max-width:800px;
 }
