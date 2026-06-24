@@ -665,3 +665,93 @@ th[colspan]{
     padding:20px;
     background:#0f766e;
 }
+
+.health-chart{
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    padding:35px;
+
+    background:rgb(29, 20, 20);
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+    border-left:6px solid #22c55e;
+}
+
+.health-chart h2{
+
+    text-align:center;
+
+    color:#16a34a;
+
+    margin-bottom:30px;
+
+    font-size:30px;
+}
+
+.health-bar{
+
+    margin-bottom:25px;
+}
+
+.health-bar span{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+    color:#1a7707;
+}
+
+.bar-fill{
+
+    height:40px;
+
+    background:#22c55e;
+
+    border-radius:10px;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-left:15px;
+
+    color:white;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.bar-fill:hover{
+
+    transform:scale(1.02);
+}
+
+.risk1{
+    width:85%;
+}
+
+.risk2{
+    width:75%;
+}
+
+.risk3{
+    width:60%;
+}
+
+.risk4{
+    width:50%;
+}
+
+.risk5{
+    width:35%;
+}
