@@ -660,7 +660,7 @@ form{
     max-width:700px;
     margin:20px auto;
 }
-th[colspan]{
+{
     font-size:28px;
     padding:20px;
     background:#0f766e;
