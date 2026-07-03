@@ -1,3 +1,9 @@
+body{
+    background-color: aquamarine;
+}
+.logo{
+    color: rgb(72, 103, 27);
+}
 header{
     background:#004126;
     padding:20px 50px;
@@ -21,4 +27,24 @@ nav a{
 
 nav a:hover{
     color:#22c55e;
+}
+table{
+    background-color:cadetblue;
+    margin-bottom: 30px;
+}
+.hero-content{
+    margin-bottom: 30px;
+}
+.btn{
+    background:#22c55e;
+    color:white;
+    text-decoration:none;
+
+    padding:15px 30px;
+    border-radius:30px;
+
+    transition:0.3s;
+}
+.btn:hover{
+ background:#16a34a;
 }
