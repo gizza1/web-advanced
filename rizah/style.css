@@ -1,0 +1,25 @@
+header{
+    background:#004126;
+    padding:20px 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#22c55e;
+}
