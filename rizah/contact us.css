@@ -28,3 +28,16 @@ nav a{
 nav a:hover{
     color:#22c55e;
 }
+.container{
+    color: rgb(0, 73, 20);
+    text-align: center;
+}
+.contact-info{
+    color: rgb(0, 73, 20);
+    text-align: center;
+}
+footer{
+    background-color: #22c55e;
+    text-align: center;
+    padding: 20px 50px;
+}

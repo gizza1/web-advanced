@@ -45,3 +45,24 @@ nav a:hover{
 .btn:hover{
     background:#16a34a;
 }
+.hero-content{
+    color: rgb(0,73,20);
+    text-align: center  ;
+}
+.water-pollution{
+    color: rgb(0,73,20);
+    text-align: center;
+}
+.air-pollution{
+    color: rgb(0,73,20);
+    text-align: center;
+}
+.plastic-pollution{
+    color: rgb(0,73,20);
+    text-align: center;
+}
+footer{
+    background-color: #16a34a;
+    text-align: center;
+    padding:20px 50px ;
+}

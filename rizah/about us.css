@@ -48,3 +48,44 @@ table{
 .btn:hover{
  background:#16a34a;
 }
+.container{
+    color: rgb(0, 73, 20);
+    text-align: center;
+}
+.stats-table{
+    width:70%;
+    margin:60px auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+th{
+    background:#16a34a;
+    color:white;
+}
+
+th,
+td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+.table{
+    color: rgb(0, 73, 20);
+    text-align: center;
+}
+.hero-content{
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-color: #16a34a;
+    text-align: center;
+    padding: 20px 50px;
+}
